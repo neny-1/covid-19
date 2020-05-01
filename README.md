@@ -1,2 +1,2 @@
 # Corona-virus
-this project talking about corona virus
+this project is talking about corona virus
