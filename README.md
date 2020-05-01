@@ -1,4 +1,4 @@
-# Corona-virus
+# covid-19
 If you want to download and browse the website at a local host
 Follow the next steps:
 first - You can download the website to your device in two ways :
