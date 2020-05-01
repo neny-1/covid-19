@@ -1,2 +1,2 @@
-# covid-19
-WELCOME TO COVID19 AWARENESS
+# Corona-virus
+this project talking about corona virus

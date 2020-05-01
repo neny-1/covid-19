@@ -1,0 +1,178 @@
+nav,.homepage,.know,.Symptoms-sec,.Prevention,.family,.faq,.contact-us,footer{
+	direction: rtl;
+}
+.home p.wel,.home h3 {
+	text-align: right;
+}
+.homepage .data_number .item .total,.homepage .data_number .item .all-counter
+,.homepage .data_number .item .yest, .homepage .data_number .item .today
+,.homepage .data_number .item .yest-counter, .homepage .data_number .item .today-counter{
+	text-align:right;
+}
+
+
+
+
+
+
+/*know*/
+.know h4,.know h6{
+	text-align: right;
+}
+.know h6.active:after {
+   
+    right: 245px;
+    border-color: transparent #FFF transparent transparent;
+}
+.know .number {
+	right:75px;
+	top: -49px;
+}
+.know img {
+    margin-left: 21px;
+}
+/* spread*/
+.spread .components ul li {
+	direction: ltr;
+}
+.Symptoms-sec .con{
+	text-align: right;
+}
+.Symptoms-sec .con button{
+	float:left;
+	direction: rtl;
+    padding: 10px 40px;
+}
+.Symptoms-sec .active-data {
+    text-align: right
+}
+.Prevention .col-lg-3,.Prevention .col-lg-5,.Prevention .col-lg-4{
+	padding-left: 0;
+	padding-right: 0;
+}
+.Prevention .img-shaow{
+	text-align: right;
+    padding-right:25px;
+    box-shadow: -600px 70px 1px 0 #31cacd;
+}
+.family .layer .all{
+	text-align: right;
+   
+}
+
+.faq .video p{
+	right: 321px;
+}
+.scroll-top-ar{
+display: none;
+	position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    background: #04edf2;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+	color: #FFF;
+	opacity: 0.7;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+/*start lang*/
+.lan {
+	position:fixed;
+	top:35px;
+	left:5%;
+	background: #2fcbce;
+	color:#FFF;
+}
+.lang-icon{
+	padding:8px 8px;
+	border-radius:7px;
+	font-size:18px;
+	background:#2fcbce;
+	color:#FFF;
+	cursor: pointer;
+}
+.lang-icon .brw{
+    margin-left: -7px;
+}
+.lang-icon .arrow-down{
+	position: relative;
+    top: 3px;
+}
+.lan p {
+	margin-right: 16px;
+}
+.lan p.en{
+	margin-top: 10px;
+}
+.lan p a{
+	text-decoration: none;
+    color: #FFF;
+}
+.lan .hid{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*start media*/
+@media ( max-width:575px) {
+/*start home*/
+	.home a.read{
+		margin-bottom:20px;
+	}
+	.homepage .sm{
+	position:relative;
+    right: 238px;
+    top: -82px;
+	}
+	.homepage .he{
+		height: 100px
+	}
+/*start you know*/
+	.know h6{
+	text-align: center;
+   }
+	.know .width{
+		width: 50%;
+	}
+	.know .number {
+    top: 44px;
+    right: -30px;
+	}
+	.know img{
+		margin-right: 24px;
+	}
+	.Symptoms-sec .con button {
+    width: 100%;
+    padding: 7px;
+    float: none;
+	}
+  .faq .video p {
+    top: -156px;
+    right: 151px;
+}
+/*start spread*/
+	.Prevention .img-slider img {
+	box-shadow: 50px 50px 0 #04edf2;
+	}
+}
+/* start ipad*/
+
